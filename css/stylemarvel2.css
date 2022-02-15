@@ -1,0 +1,97 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+:root{
+    --vermelho:#E50914;
+    --preto:#141414;
+}
+
+body{
+    background:var(--preto);
+    color:white;
+}
+
+header .logo{
+    color:var(--vermelho);
+    font-size: 45px;
+    margin-left:10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+header .container{
+display:flex;
+align-items:center;
+justify-content: space-between;
+}
+
+header nav a{
+    text-decoration:none;
+    color:#AAA;
+    margin-right:10px;
+    font-size:25px;
+
+}
+
+header nav a:hover{
+    color:#FFF;
+}
+
+/*Filme Principal*/
+main .filme-principal{
+   
+    height:800px;
+    font-size:18px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.603), rgba(0, 0, 0, 0.603)100%), url('justiceiro3.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.filme-principal .container{
+    margin-left:10px;
+    max-width:50%;
+}
+
+.botão{
+    margin-top:30px;
+    background-color:rgba(0,0,0, .50);
+    color: white;
+    border: none;
+    padding:14px 20px;
+    margin-right: 15px;
+    cursor: pointer;
+    transition:.4s ease all;
+    margin-left: 10px;
+    
+}
+
+.botão:hover{
+    background-color:white;
+    color:black;
+}
+
+.botão i{
+    margin-right:5px;
+}
+
+.titulo{
+    font-size: 40px;
+    margin-bottom: 2%;
+}
+
+.box-filme{
+    height: 100%;
+    width:100%;
+    display:block;
+}
